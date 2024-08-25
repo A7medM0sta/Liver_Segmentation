@@ -4,8 +4,8 @@ from monai.networks.layers import Norm
 from monai.losses import DiceLoss, DiceCELoss
 
 import torch
-from preporcess import prepare
-from utilities import train
+from preprocessing import prepare
+from utils import train
 
 
 data_dir = 'D:/Youtube/Organ and Tumor Segmentation/datasets/Task03_Liver/Data_Train_Test'
